@@ -18,7 +18,7 @@ __lib list__
 Then type in termina ``` npx expo prebuild ``` which will generate native android folder.
 __Android Manifest__
 
-``` JSON
+``` Xml
  <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION"/>
   <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION"/>
   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
