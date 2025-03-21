@@ -3,7 +3,7 @@ MDNS Check and request
 # To work with it:
 First create a react native app with expo, then add all the libs and android manifest
 __lib list__
-```
+``` JSON
 "expo": "~52.0.39",
         "expo-dev-client": "^5.0.14",
         "expo-network": "^7.0.5",
@@ -18,7 +18,7 @@ __lib list__
 Then type in termina ``` npx expo prebuild ``` which will generate native android folder.
 __Android Manifest__
 
-```
+``` JSON
  <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION"/>
   <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION"/>
   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
